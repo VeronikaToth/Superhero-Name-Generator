@@ -15,7 +15,7 @@ const word2 = ['Pineapple','Soul','Children','Dimension','Krispy Kreme','Alien',
 'Stormtrooper','Hero','Skirt','Bunny','Gerbil','Butter','Sound'];
 
 const word3 = ['Destroyer','Humiliator','Collector','Designer','Kisser','Stealer','Fixer','Runner','Decorator','Trainer','Shapeshifter','Breaker','Cleaner','Smoker','Sniffer','Traveler','Timer','Energizer','Manipulator','Hypnotizer','Licker','Printer','Catcher','ShieldMaiden','Warrior','Gentleman','Lady','Scientist',
-'Compiler','Protector','Charger','Interpreter','Driver','Fighter','Hero','Magnetizer','Witness','Listener','Healer','Wizard','Tutor','Cop','Woman','Man','Trimmer'];
+'Compiler','Protector','Charger','Interpreter','Driver','Fighter','Hero','Magnetizer','Witness','Listener','Healer','Wizard','Tutor','Cop','Woman','Man','Trimmer','Leader'];
 
     var newName = word1[Math.floor(Math.random() * word1.length)] + " " + word2[Math.floor(Math.random() * word2.length)] + " " + word3[Math.floor(Math.random() * word3.length)];
     return newName;
