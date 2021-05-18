@@ -1,0 +1,41 @@
+html {
+    background-color: rgb(253, 253, 131);
+
+    }
+
+.container{
+    height: 1000px;
+    position: relative;
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    text-align: center;
+    color: rgb(175, 70, 175);
+    font-family:sans-serif;
+    font-weight: 900;
+    font-size: 5em;
+    margin:0%;
+
+    }
+#button {
+   text-align: center;
+   font-size: 5em;
+   width:100%;
+   border: none;
+   background-color:rgb(175, 70, 175) ;
+   color:rgb(253, 253, 131);
+   
+}
+
+#button:hover {
+    background-color:rgb(93, 39, 93) ;
+    color:rgb(253, 253, 131);
+}
