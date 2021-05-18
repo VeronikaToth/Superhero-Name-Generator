@@ -1,7 +1,3 @@
-
-
-
-
 function generator() {  
     const word1 = ['The Big','The Bad','The Ugly','The Poopy','The Beautiful','The Abnormal','The Average','The Special','The Fabulous','The Fantastic',
 'The Fascinating','The Helpful','The Gloomy','The Easy-Going','The Musical','The Deep','The Below Average','The Wary','The Warm','The Volcanic',
@@ -15,7 +11,7 @@ const word2 = ['Pineapple','Soul','Children','Dimension','Krispy Kreme','Alien',
 'Stormtrooper','Hero','Skirt','Bunny','Gerbil','Butter','Sound'];
 
 const word3 = ['Destroyer','Humiliator','Collector','Designer','Kisser','Stealer','Fixer','Runner','Decorator','Trainer','Shapeshifter','Breaker','Cleaner','Smoker','Sniffer','Traveler','Timer','Energizer','Manipulator','Hypnotizer','Licker','Printer','Catcher','ShieldMaiden','Warrior','Gentleman','Lady','Scientist',
-'Compiler','Protector','Charger','Interpreter','Driver','Fighter','Hero','Magnetizer','Witness','Listener','Healer','Wizard','Tutor','Cop','Woman','Man','Trimmer','Leader'];
+'Compiler','Protector','Charger','Interpreter','Driver','Fighter','Hero','Magnetizer','Witness','Listener','Healer','Wizard','Tutor','Cop','Woman','Man','Trimmer','Leader','Pooper'];
 
     var newName = word1[Math.floor(Math.random() * word1.length)] + " " + word2[Math.floor(Math.random() * word2.length)] + " " + word3[Math.floor(Math.random() * word3.length)];
     return newName;
@@ -26,21 +22,7 @@ function input() {
     document.getElementById("demo").innerHTML = generator();
   }
 
-/*function randomNumGen() {
-    let random =[]
-    for (let step = 0; step < 3; step++) {
-        //console.log(step);
-       let number = Math.floor(Math.random()*word1.length);
-        console.log(number);
-        random.push(number);   
-        
-    };
-    console.log(random); 
-};
-*/
 
-
-//console.log(randomNumGen());
 
 console.log(generator());
 
